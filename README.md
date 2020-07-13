@@ -1,5 +1,3 @@
-﻿Welcome file.html
-
 # My own malloc implementation
 
 ## 1\. How to use?
