@@ -1,8 +1,8 @@
-# My own malloc implementation
+# My own malloc implementation with heap display
 
 ## 1\. How to use?
 
-Follow these steps to replace my malloc by the malloc from the C standard library (it will be replaced only during execution time).
+Follow these steps to replace my *malloc* by the *malloc* from the *C standard library* (it will be replaced only during execution time).
 
 1.  Enter command “make”  
     `$ make`
@@ -13,7 +13,7 @@ Follow these steps to replace my malloc by the malloc from the C standard librar
     `$ LD_PRELOAD=$PWD/libmy_malloc.so ls` This will run ls command with my malloc implementation.
     
 
-An that’s all!
+**An that’s all!**
 
 ## 2\. Have a look on your heap!
 
@@ -28,5 +28,7 @@ You can also choose how many block to dispay. You just have to prodive these arg
 **Example**
 
 `$ make debug block-nb=50` If you compile malloc with these command the debug mode will display 50 block of memory.  
-Have fun!
+
+**Have fun!**
+
 
