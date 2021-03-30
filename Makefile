@@ -43,6 +43,9 @@ fclean:		clean
 
 re:		fclean all
 
+test:
+		@printf "Running test...\n"
+
 debug:		CFLAGS	+=	-ggdb
 debug:		CFLAGS 	+=	-DDEBUG_MODE -DBLOCK_NB=$(block-nb)
 debug:		re
